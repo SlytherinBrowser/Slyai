@@ -167,7 +167,7 @@ document.addEventListener("DOMContentLoaded", function() {
         userMessage.textContent = "Uporabnik: " + userInput.value;
         chatOutput.appendChild(userMessage);
 
-        const apiKey = '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'; // Zamenjaj s svojim OpenAI API ključem
+       const apiKey = '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'; // Zamenjaj s svojim OpenAI API ključem
         const apiUrl = 'https://api.openai.com/v1/chat/completions';
 
         const requestOptions = {
