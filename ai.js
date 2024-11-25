@@ -167,6 +167,13 @@ document.addEventListener("DOMContentLoaded", function() {
         userMessage.textContent = "Uporabnik: " + userInput.value;
         chatOutput.appendChild(userMessage);
 
+        import OpenAI from "openai";
+
+const openai = new OpenAI({
+    organization: "org-kv4RQSNHDK4C1meUkJoaz765",
+    project: "$PROJECT_ID",
+});
+
        const apiKey = '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'; // Zamenjaj s svojim OpenAI API ključem
         const apiUrl = 'https://api.openai.com/v1/chat/completions';
 
